@@ -1,0 +1,21 @@
+{
+  "name": "yes",
+  "version": "0.0.1",
+  "main": "./index.html",
+  "dependencies": {
+        "bootstrap-css" : "2.3.2",
+        "angular" : "1.2.0-rc.3",
+        "angular-route" : "1.2.0-rc.3",
+        "angular-ui-router" : "0.2.0",
+        "angular-animate" : "1.2.0-rc.3",
+        "angular-bootstrap" : "0.8.0",
+        "angular-ui-date" : "0.0.3",
+        "socket.io-client" : "0.9.9",
+        "activestack": "^0.0.3",
+        "momentjs" : "2.3.1",
+        "underscore" : "1.5.2",
+        "animate.css" : "2.1.0",
+        "font-awesome" : "3.2.1",
+        "q": "0.9.x"
+  }
+}

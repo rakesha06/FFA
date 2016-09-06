@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" ng-app="myApp" ng-cloak>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>yes</title>
+    <link href="img/favicon.png" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="bower_components/bootstrap-css/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.css"/>
+</head>
+<body ng-controller="AppController">
+<div class="indexView" ui-view></div>
+<!--<div class="connectStatus">Connected: {{connected}}</div> -->
+
+<!-- Angular Lib and other Lib Goodies -->
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script type="text/javascript" src="bower_components/socket.io-client/dist/socket.io.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-date/src/date.js"></script>
+<script type="text/javascript" src="bower_components/momentjs/min/moment.min.js"></script>
+<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="bower_components/q/q.js"></script>
+
+
+
+<!-- Angular UI Router config -->
+<script type="text/javascript" src="js/app.js"></script>
+
+<!-- Controllers -->
+<script type="text/javascript" src="js/controllers/appController.js"></script>
+<script type="text/javascript" src="js/controllers/apps.js"></script>
+<script type="text/javascript" src="js/controllers/dashboard/dashboard.js"></script>
+
+<!-- Other Angular -->
+<script type="text/javascript" src="js/services.js"></script>
+<script type="text/javascript" src="js/filters.js"></script>
+<script type="text/javascript" src="js/directives.js"></script>
+
+<!-- ActiveStack -->
+<script type="text/javascript" src="bower_components/activestack/src/ActiveStack.js"></script>
+<script type="text/javascript" src="bower_components/activestack/src/class.util.js"></script>
+<script type="text/javascript" src="bower_components/activestack/src/util.js"></script>
+<script type="text/javascript" src="js/activestack/ActiveStackConfig.js"></script>
+<script type="text/javascript" src="bower_components/activestack/src/ActiveStackApi.js"></script>
+<script type="text/javascript" src="bower_components/activestack/src/ActiveStackModel.js"></script>
+<script type="text/javascript" src="bower_components/activestack/src/ActiveStackClient.js"></script>
+
+<!-- Place your model objects imports here -->
+
+<script type="text/javascript" src="js/activestack/yes_Domain.js"></script>
+<script type="text/javascript" src="js/activestack/yes_ProcessHelper.js"></script>
+<script type="text/javascript" src="js/activestack/yes_Domain_Ext.js"></script>
+
+
+</body>
+</html>

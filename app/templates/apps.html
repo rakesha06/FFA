@@ -1,0 +1,16 @@
+    <div class="appsContainer">
+        <div class="appsContainerInner">
+            <div class="sharedHeader">
+                <div class="sharedLogo"></div>
+                <div class="name no-select">{{anchorUser.firstName + ' ' + anchorUser.lastName}}</div>
+                <a href="javascript:void(0)" class="logout link no-select" ng-click="logout()" ng-show="connected">LOG OUT</a>
+            </div>
+            <div class="appsBar">
+                <ul>
+                    <li><label><a href="#/apps/dashboard" ng-class="{active:state.data.tit=='Dashboard'}">Dashboard</a></label></li>
+                    <li><label>{{currentState.name}}</label></li>
+                </ul>
+            </div>
+            <div class="appsView" ui-view></div>
+        </div>
+    </div>

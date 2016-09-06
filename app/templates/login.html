@@ -1,0 +1,13 @@
+<!-- directive: flPreloadImages ../img/login_button_over.png, ../img/login_button_selected.png  -->
+<div class="login-container">
+    <div class="login-top-margin"></div>
+    <div class="login-content">
+        <div class="login-button-container" ng-hide="authenticating">
+            <p>Login With</p>
+            <button class="login-button" ng-click="authenticate('ACTIVESTACK:BASIC', 'tester', 'password')">Basic Auth</button>
+        </div>
+        <div class="login-message" ng-show="loginFailed">Login Failed. Please try again.</div>
+        <div class="login-message" ng-hide="loginFailed" style="color: rgb(43, 43, 43);">{{message}}</div>
+    </div>
+    <div class="login-bottom-margin"></div>
+</div>
